@@ -1,8 +1,11 @@
 # fetched data + rendered artifacts (regenerate with: make data && make map)
 data/huc8_raw.geojson
+data/manifest.json
 outputs/*.png
 outputs/*.pdf
 
 __pycache__/
 *.pyc
+.venv/
 .DS_Store
+.claude/settings.local.json
