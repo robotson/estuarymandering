@@ -1,0 +1,8 @@
+# fetched data + rendered artifacts (regenerate with: make data && make map)
+data/huc8_raw.geojson
+outputs/*.png
+outputs/*.pdf
+
+__pycache__/
+*.pyc
+.DS_Store
