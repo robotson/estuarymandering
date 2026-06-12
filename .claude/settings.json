@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pdftotext *)",
+      "Bash(pdftoppm *)",
+      "Bash(pdfinfo *)",
+      "Bash(curl -s https://hydro.nationalmap.gov/*)",
+      "Bash(fc-list)",
+      "Bash(fc-list *)",
+      "Bash(mdls *)",
+      "Bash(git branch *)",
+      "Bash(git checkout -b *)",
+      "Bash(git switch -c *)",
+      "Bash(make -n *)",
+      "Bash(make data)",
+      "Bash(make map)",
+      "Bash(uv venv)",
+      "Bash(uv pip list)",
+      "Bash(uv pip install -r requirements.txt)",
+      "Bash(.venv/bin/python scripts/*)",
+      "Bash(sips *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
